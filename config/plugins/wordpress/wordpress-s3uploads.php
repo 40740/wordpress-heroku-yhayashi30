@@ -5,7 +5,6 @@
  */
 if (!empty(getenv('AWS_S3_URL'))) {
     $env = sscanf(getenv('AWS_S3_URL'), 's3://%[^:]:%[^@]@s3-%[^.].amazonaws.com/%s');
-    print_r($env);
 
     define('S3_UPLOADS_AUTOENABLE', true);
     define('S3_UPLOADS_KEY', $env[0]);
