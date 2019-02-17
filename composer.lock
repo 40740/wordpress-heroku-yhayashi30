@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecbc1d3e159eecdbd584005a66957573",
+    "content-hash": "907894086ef75206703d517d1fa5c6c8",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3652,6 +3652,24 @@
             ],
             "description": "Programmatically edit a wp-config.php file.",
             "time": "2018-12-14T08:16:36+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "4.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/4.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",

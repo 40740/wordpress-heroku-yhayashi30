@@ -41,7 +41,8 @@
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
-	"wpackagist-plugin/wp-user-avatar": "2.1.6"
+	"wpackagist-plugin/wp-user-avatar": "2.1.6",
+	"wpackagist-plugin/akismet": "4.1.1"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -62,7 +63,8 @@
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
-		"wpackagist-plugin/wp-user-avatar"
+		"wpackagist-plugin/wp-user-avatar",
+		"wpackagist-plugin/akismet"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
