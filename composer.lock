@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "907894086ef75206703d517d1fa5c6c8",
+    "content-hash": "d980faad7575e4d7791f79cac593fb6a",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3706,6 +3706,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/feedwordpress",
+            "version": "2017.1020",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/feedwordpress/",
+                "reference": "tags/2017.1020"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/feedwordpress/"
         },
         {
             "name": "wpackagist-plugin/nginx-helper",
