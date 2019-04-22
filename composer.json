@@ -44,7 +44,8 @@
 	"wpackagist-plugin/akismet": "4.1.1",
 	"wpackagist-plugin/feedwordpress": "2017.1020",
 	"wpackagist-plugin/wp-multibyte-patch": "2.8.2",
-	"wpackagist-plugin/jetpack": "7.2.1"
+	"wpackagist-plugin/jetpack": "7.2.1",
+	"wpackagist-plugin/google-captcha": "1.43"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -68,7 +69,8 @@
 		"wpackagist-plugin/akismet",
 		"wpackagist-plugin/feedwordpress",
 		"wpackagist-plugin/wp-multibyte-patch",
-		"wpackagist-plugin/jetpack"
+		"wpackagist-plugin/jetpack",
+		"wpackagist-plugin/google-captcha"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c314224fb817e166043c383742c4634b",
+    "content-hash": "d85ef33d19ec5f1e0503a3c756fbfff8",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3724,6 +3724,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/feedwordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/google-captcha",
+            "version": "1.43",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-captcha/",
+                "reference": "tags/1.43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-captcha.1.43.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-captcha/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
