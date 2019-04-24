@@ -7,7 +7,4 @@ define('SCRIPT_DEBUG', false);
 define('DISALLOW_FILE_MODS', true);
 
 /** Add Japanease */
-define ('WPLANG', 'admin-ja');
-define ('WPLANG', 'admin-network-ja');
-define ('WPLANG', 'continents-cities-ja');
 define ('WPLANG', 'ja');

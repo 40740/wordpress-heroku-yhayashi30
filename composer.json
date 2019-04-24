@@ -86,9 +86,9 @@
 		"package:wpackagist-plugin/redis-cache:includes/object-cache.php",
 		"package:frc/batcache:advanced-cache.php"
 		],
-		"public/wp-content/languages/": ["vendor:koodimonni-language"],
-		"public/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-		"public/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+		"web/wp/wp-content/languages/": ["vendor:koodimonni-language"],
+		"web/wp/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+		"web/wp/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
 	},
 	"wordpress-install-dir": "web/wp"
   },
