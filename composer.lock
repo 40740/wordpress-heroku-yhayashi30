@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d85ef33d19ec5f1e0503a3c756fbfff8",
+    "content-hash": "382708cb602fafb00da032b86e3aaca2",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -683,6 +683,25 @@
                 "schema"
             ],
             "time": "2019-01-14T23:55:14+00:00"
+        },
+        {
+            "name": "koodimonni-language/core-ja",
+            "version": "5.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/5.1.1/ja.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress core translation for Japanese - ja",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "core",
+                "ja"
+            ]
         },
         {
             "name": "koodimonni/composer-dropin-installer",
