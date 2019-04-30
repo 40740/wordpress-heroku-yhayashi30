@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa7409b8546302a2e5db2c01d1e5be9b",
+    "content-hash": "b0405ee81e82b28b2af20844541175a2",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3763,6 +3763,24 @@
             "homepage": "https://wordpress.org/plugins/google-captcha/"
         },
         {
+            "name": "wpackagist-plugin/highlighting-code-block",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/highlighting-code-block/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/highlighting-code-block.1.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/highlighting-code-block/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "7.2.1",
             "source": {
@@ -3833,24 +3851,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
-        },
-        {
-            "name": "wpackagist-plugin/simple-code-highlighter",
-            "version": "2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/simple-code-highlighter/",
-                "reference": "tags/2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-code-highlighter.2.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/simple-code-highlighter/"
         },
         {
             "name": "wpackagist-plugin/wp-multibyte-patch",
