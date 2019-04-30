@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0405ee81e82b28b2af20844541175a2",
+    "content-hash": "8c4ddbca004971bae1f3ccea04ffe343",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3761,24 +3761,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-captcha/"
-        },
-        {
-            "name": "wpackagist-plugin/highlighting-code-block",
-            "version": "1.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/highlighting-code-block/",
-                "reference": "tags/1.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/highlighting-code-block.1.0.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/highlighting-code-block/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
