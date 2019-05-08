@@ -10,6 +10,13 @@ if(get_option('fit_anp_check') == 'value2' && is_single() && @$_GET['amp'] === '
 <html amp>
 <head>
 <meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2722255544652682",
+    enable_page_level_ads: true
+  });
+</script>
 <?php fit_amp_head(); ?>
 <?php else: // 通常ページ ?>
 <html <?php language_attributes(); ?> prefix="og: http://ogp.me/ns#">
