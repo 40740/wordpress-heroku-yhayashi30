@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "feb1734277874aae7daebeea938c8f10",
+    "content-hash": "69b5c1f61caac78db7bc7fa1961a71b1",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3752,15 +3752,15 @@
         },
         {
             "name": "wpackagist-plugin/feedwordpress",
-            "version": "2017.1020",
+            "version": "2020.0818",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/feedwordpress/",
-                "reference": "tags/2017.1020"
+                "reference": "tags/2020.0818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip"
+                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2020.0818.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
