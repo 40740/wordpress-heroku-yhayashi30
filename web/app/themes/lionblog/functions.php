@@ -4511,8 +4511,10 @@ class AdWidgetItemClass extends WP_Widget {
 	}
  
 }
-add_action( 'widgets_init', create_function( '', 'return register_widget( "AdWidgetItemClass" );' ) );
-
+// add_action( 'widgets_init', create_function( '', 'return register_widget( "AdWidgetItemClass" );' ) );
+add_action( 'widgets_init', function(){
+	register_widget( 'AdWidgetItemClass' );
+});
 
 
 
@@ -4608,7 +4610,10 @@ class Popular_Posts extends WP_Widget {
         echo $after_widget;
 	}
 }
-add_action( 'widgets_init', create_function( '', 'return register_widget( "Popular_Posts" );' ) );
+// add_action( 'widgets_init', create_function( '', 'return register_widget( "Popular_Posts" );' ) );
+add_action( 'widgets_init', function(){
+	register_widget( 'Popular_Posts' );
+});
 
 
 
