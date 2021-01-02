@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08c8bb361f011029c708978179ca7b5a",
+    "content-hash": "8c09d2495af3ec3af4f6ad3e5c0b75c6",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -729,16 +729,16 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "2.2.2",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/S3-Uploads.git",
-                "reference": "577886b941438793a5721bbbb6eddc6872ee73cb"
+                "reference": "70d50a23b2665a02abd410647c887306decfe940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/577886b941438793a5721bbbb6eddc6872ee73cb",
-                "reference": "577886b941438793a5721bbbb6eddc6872ee73cb",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/70d50a23b2665a02abd410647c887306decfe940",
+                "reference": "70d50a23b2665a02abd410647c887306decfe940",
                 "shasum": ""
             },
             "require": {
@@ -762,7 +762,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2020-07-08T12:09:08+00:00"
+            "time": "2018-03-13T15:10:11+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
