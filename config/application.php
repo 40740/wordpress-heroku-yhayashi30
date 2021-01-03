@@ -152,7 +152,7 @@ define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'));
 if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('MULTISITE', true);
     define('SUBDOMAIN_INSTALL', true);
-    define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
+    define('DOMAIN_CURRENT_SITE', $_SERVER[ 'HTTP_HOST' ]);
     define('PATH_CURRENT_SITE', '/');
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
