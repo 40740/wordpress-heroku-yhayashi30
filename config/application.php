@@ -151,8 +151,7 @@ if (env('WP_ENV') != "development") {
 define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'));
 if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('MULTISITE', true);
-    #define('SUBDOMAIN_INSTALL', true);
-    define('SUBDOMAIN_INSTALL', false);
+    define('SUBDOMAIN_INSTALL', true);
     #define('DOMAIN_CURRENT_SITE', $_SERVER[ 'HTTP_HOST' ]);
     define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
     define('PATH_CURRENT_SITE', '/');
