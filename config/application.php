@@ -152,13 +152,13 @@ define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'));
 if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('MULTISITE', true);
     define('SUBDOMAIN_INSTALL', true);
-    define('DOMAIN_CURRENT_SITE', 'yhayashi30.org');
+    define('DOMAIN_CURRENT_SITE', 'www.yhayashi30.org');
     #define('DOMAIN_CURRENT_SITE', env('WP_MULTISITE_MAIN_DOMAIN'));
     define('PATH_CURRENT_SITE', '/');
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
     #define('SUNRISE', true);
-    define( 'NOBLOGREDIRECT', 'https://yhayashi30.org/wp/wp-admin/index.php' );
+    #define( 'NOBLOGREDIRECT', 'https://yhayashi30.org/wp/wp-admin/index.php' );
 }
 
 /**
