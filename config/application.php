@@ -158,6 +158,7 @@ if (env('WP_MULTISITE_MAIN_DOMAIN')) {
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
     #define('SUNRISE', true);
+    define( 'NOBLOGREDIRECT', 'https://yhayashi30.org' );
 }
 
 /**
